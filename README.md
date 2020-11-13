@@ -1,6 +1,6 @@
 # elegant-slug
 
-[![npm version](https://badge.fury.io/js/elegant-slug.svg)](https://badge.fury.io/js/elegant-slug.svg) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/elegant-slug) ![David](https://img.shields.io/david/aboudicheng/elegant-slug)
+[![npm version](https://badge.fury.io/js/elegant-slug.svg)](https://www.npmjs.com/package/elegant-slug) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/elegant-slug) ![David](https://img.shields.io/david/aboudicheng/elegant-slug)
 
 🧹 Elegant & SEO-friendly slugger for URLs
 
@@ -27,8 +27,8 @@ slug('déjà vu');
 slug('some title', { separator: 'underscore' });
 // 'some_title'
 
-slug('this is a really long title and it should not exceed 50 characters', {
-  maxLength: 50,
+slug('this is a really long title and it should not exceed 30 characters', {
+  maxLength: 30,
 });
 // 'this-is-a-really-long-title'
 
