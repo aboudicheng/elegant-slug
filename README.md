@@ -1,5 +1,7 @@
 # elegant-slug
 
+[![npm version](https://badge.fury.io/js/elegant-slug.svg)](https://badge.fury.io/js/elegant-slug.svg) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/elegant-slug) ![David](https://img.shields.io/david/aboudicheng/elegant-slug)
+
 🧹 Elegant & SEO-friendly slugger for URLs
 
 ## Installation
@@ -70,6 +72,6 @@ Additional options to format the slug. See below for the available options.
 | separator | 'hyphen'  | 'hyphen' \| 'underscore' | The separator symbol that will be used in between the concatenated strings. `hyphen` uses the `-` symbol while `underscore` uses the `_` symbol. |
 | maxLength | | number | The maximum length of the converted slug. Once exceeding the specified length, the words get cropped out. |
 | letterCase |  | 'lowercase' \| 'uppercase' \| 'capitalize' | The letter case the slug should be transformed into. If nothing is provided, the original casing will be used. |
-| unique | | boolean | If set to `true`, a unique id generated using [`uniqid`](https://github.com/adamhalasz/uniqid/) will be appended to the end of the slug. |
+| unique | `false` | boolean | If set to `true`, a unique id generated using [`uniqid`](https://github.com/adamhalasz/uniqid/) will be appended to the end of the slug. |
 | charMap | | Record<string, string> | A map of key-value pairs that are used to replace occurrences with the given values. |
 
