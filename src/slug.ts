@@ -20,7 +20,7 @@ export default (str: string, options = defaultOptions): string => {
     }
   }
 
-  // remove diactrics, normalize unicode, replace all punctuations with dash(-)
+  // remove diactrics, normalize unicode, replace all punctuations with separator
   formattedString = deburr(formattedString)
     .normalize('NFKD')
     .replace(punctuationsReg, separator)
