@@ -18,6 +18,8 @@ yarn add elegant-slug
 
 ## Usage
 
+[Live Demo](https://codesandbox.io/s/elegant-slug-example-w7i21)
+
 ```javascript
 import slug from 'elegant-slug';
 
